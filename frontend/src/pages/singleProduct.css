@@ -1,0 +1,19 @@
+/* Animate dark gradient background for form */
+.form-gradient-dark-animated {
+  background: linear-gradient(-45deg, #1f1f2e, #2b2b3d, #3c3c5c, #4d4d7a);
+  background-size: 400% 400%;
+  animation: gradientMoveDark 10s ease infinite;
+}
+
+@keyframes gradientMoveDark {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Input/textarea/select light gradient border */
+.border-gradient-input-light {
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(135deg, #7afcff, #ff7eb3, #ff758c, #4facfe);
+}
