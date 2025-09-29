@@ -1,7 +1,7 @@
 import pipes from "../assets/pipe.jpg"
 import tubing from "../assets/tube.jpg"
 import tubeFitting from "../assets/tubefitting.jpg"
-import InstrumentationValve from "../assets/Instrumentationvalve.jpg"
+import InstrumentationValve from "../assets/instrumentationvalve.jpg"
 import buttleWeed from "../assets/buttleweld.jpg"
 import flanges from "../assets/flanges.jpg"
 
